@@ -1,0 +1,17 @@
+{% extends "::base.html.twig" %}
+{% form_theme form 'bootstrap_3_layout.html.twig' %}
+
+
+
+{% block body %}
+    <center>
+        <h3>Ajouter un Visiteur</h3>
+        <div class="form-group col-md-3">
+
+
+            {{ form(form) }}
+
+        </div>
+    </center>
+
+{% endblock %}

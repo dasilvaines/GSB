@@ -1,0 +1,11 @@
+gsb_visiteur_homepage:
+    path:     /
+    defaults: { _controller: GSBVisiteurBundle:Default:index }
+
+gsb_visiteur_visiteur:
+    path:     /ajouter
+    defaults: { _controller: GSBVisiteurBundle:Visiteur:add }
+
+gsb_visiteur_visiteur2:
+  path:     /ajouter/register
+  defaults: { _controller: GSBVisiteurBundle:Visiteur:register }
